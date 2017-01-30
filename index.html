@@ -8,10 +8,24 @@
 </head>
 <body>
 <main id="content">
-  <h1>Hello, fill out the form to sign-up!</h1>
+  <h1>Why join?</h1>
+  <ul>
+      <li>Once a week emails (every Monday)</li>
+      <li>Quick tips</li>
+      <li>Easy and enjoyable read. (We never bore you!)</li>
+  </ul>
   <form action="#null" method="post">
-    <input type="email" name="email" id="email" />
-    <input type="submit" />
+    <div>
+        <label for ="name">Name:</label>    
+        <input type="text" id="name" name="name" />
+    </div>  
+    <div>
+        <label for ="email">E-mail:</label>    
+        <input type="email" id="email" name="Email" />
+    </div>
+    <div class="submit-button">
+        <button type="submit">Sign-up</button>
+    </div>
   </form>
 </main>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
