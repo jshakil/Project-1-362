@@ -67,12 +67,10 @@ label, name {
     color: #FFFFFF;
     background-color: #93c757;
     transition: background-color 0.5s;
-    transition: color 0.5s;
 }
 
 .button:hover {
-    background-color: #FFFFFF;
-    color: #93c757;
+    background-color: #7ab03b;
 }
 
 .submit-button {
