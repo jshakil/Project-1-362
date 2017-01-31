@@ -79,3 +79,21 @@ label, name {
    width: 150px;
    padding-left: 60px;
 }
+
+.news {
+    float: left;
+    padding-right: 10px;
+}
+
+.calendar {
+    float: left;
+    padding-right: 10px;
+}
+.tips {
+    float: left;
+    padding-right: 10px;
+}
+.read {
+    float: left;
+    padding-right: 10px;
+}
