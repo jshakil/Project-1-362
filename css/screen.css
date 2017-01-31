@@ -16,7 +16,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.18em; /* 19px */
   line-height: 1.21em; /* 23px = 1 gridline*/
   background-color: #CFD8DC;
@@ -36,79 +36,79 @@ h1 {
 /* ===== LAYOUT STYLES ===== */
 
 .reasons-list {
-    margin-left: 1.25em;
-    margin-right: 1.25em;
-    line-height: 1.56em;
-    font-size: 1.25em;
-    font-weight: 400;
-    padding-bottom: 1.66em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  line-height: 1.56em;
+  font-size: 1.25em;
+  font-weight: 400;
+  padding-bottom: 1.66em;
 }
 
 .register {
-    width: 60%;
-    margin: 0 auto;  
+  width: 60%;
+  margin: 0 auto;
 }
 
 input,
-text, 
+text,
 email {
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-    border-style: none;
-    font-size: 15px;
+  width: 100%;
+  padding: 0.9375em;
+  border-radius: 0.3125em;
+  border-style: none;
+  font-size: 0.9375em;
 }
 
 .name {
-    padding-bottom: 15px;
+  padding-bottom: 0.9375em;
 }
 
 label {
-    float:left;
-    color: #607D8B;
+  float: left;
+  color: #607D8B;
 }
 
 label, name {
-    padding-bottom: 15px;
+  padding-bottom: 0.9375em;
 }
 
 .button {
-    font-size: 16px;
-    font-weight:500;
-    color: #FFFFFF;
-    background-color: #93c757;
-    transition: background-color 0.5s;
+  font-size: 1em;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #93C757;
+  transition: background-color 0.5s;
 }
 
 .button:hover {
-    background-color: #7ab03b;
+  background-color: #7AB03B;
 }
 
 .submit-button {
-   padding: 10px;
-   padding-top: 35px;
-   width: 150px;
-   padding-left: 60px;
+  padding: 0.625em;
+  padding-top: 2.1875em;
+  width: 9.375em;
+  padding-left: 3.75em;
 }
 
 .news {
-    float: left;
-    padding-right: 10px;
+  float: left;
+  padding-right: 0.625em;
 }
 
 .calendar {
-    float: left;
-    padding-right: 10px;
+  float: left;
+  padding-right: 0.625em;
 }
 
 .tips {
-    float: left;
-    padding-right: 10px;
+  float: left;
+  padding-right: 0.625em;
 }
 
 .read {
-    float: left;
-    padding-right: 10px;
+  float: left;
+  padding-right: 0.625em;
 }
 
 /* ===== STATE STYLES ===== */
