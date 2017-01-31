@@ -7,5 +7,66 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 html {
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.18em; /* 19px */
+  line-height: 1.21em; /* 23px = 1 gridline*/
+  background-color: #CFD8DC;
+  color: #FFFFFF;
+}
+
+h1 {
+  padding-top: 0.94em; /* 15 px */
+  font-size: 2.5em; /* 40px */
+  font-weight: bold;
+  line-height: 1.31; /* 46 @ 35px em */
+  padding-bottom: 0.94em; /* 15px */
+  text-align: center;
+  color: #607D8B;
+}
+
+.reasons-list {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    line-height: 1.56em;
+    font-size: 1.25em;
+    font-weight: 400;
+    padding-bottom: 1.66em;
+}
+
+.register {
+    width: 60%;
+    margin: 0 auto;  
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;   
+}
+
+.submit-button {
+    padding: 10px;
+    padding-top: 35px;
+    text-align: center;
+    
+}
+
+.name {
+    padding-bottom: 15px;
+}
+
+label {
+    float:left
+}
+
+label, name {
+    padding-bottom: 15px;
+}
+
+button {
+    
+}
+.submit-button {
+    border-radius: 
 }
