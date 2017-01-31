@@ -10,22 +10,23 @@
 <body>
 <main id="content">
   <h1>Why join?</h1>
-  <ul>
-      <li>Once a week emails (every Monday)</li>
+  <ul class="reasons-list">
+      <li>News from over 50+ design sites</li>
+      <li>Delivered every Monday</li>
       <li>Quick tips</li>
-      <li>Easy and enjoyable read. (We never bore you!)</li>
+      <li>Easy and enjoyable read. </li>
   </ul>
-  <form action="#null" method="post">
-    <div>
+  <form action="#null" method="post" class="register">
+    <div class="name">
         <label for ="name">Name:</label>    
-        <input type="text" id="name" name="name" />
+        <input type="text" id="name" name="name" placeholder="Full name" required/>
     </div>  
     <div>
         <label for ="email">E-mail:</label>    
-        <input type="email" id="email" name="Email" />
+        <input type="email" id="email" name="Email" placeholder="We-won't@spam.you" required />
     </div>
     <div class="submit-button">
-        <button type="submit">Sign-up</button>
+        <input type="submit" value ="Sign-up" class="button">
     </div>
   </form>
 </main>
