@@ -38,18 +38,14 @@ h1 {
     margin: 0 auto;  
 }
 
-input {
+input,
+text, 
+email {
     width: 100%;
     padding: 15px;
     border-radius: 5px;
-    border-style: none;   
-}
-
-.submit-button {
-    padding: 10px;
-    padding-top: 35px;
-    text-align: center;
-    
+    border-style: none;
+    font-size: 15px;
 }
 
 .name {
@@ -57,16 +53,31 @@ input {
 }
 
 label {
-    float:left
+    float:left;
+    color: #607D8B;
 }
 
 label, name {
     padding-bottom: 15px;
 }
 
-button {
-    
+.button {
+    font-size: 16px;
+    font-weight:500;
+    color: #FFFFFF;
+    background-color: #93c757;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
 }
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: #93c757;
+}
+
 .submit-button {
-    border-radius: 
+   padding: 10px;
+   padding-top: 35px;
+   width: 150px;
+   padding-left: 60px;
 }
