@@ -87,8 +87,23 @@ label, name {
 .submit-button {
   padding: 0.625em;
   padding-top: 2.1875em;
-  width: 9.375em;
-  padding-left: 3.75em;
+  width: 100%;
+  padding-left: 1em;
+}
+
+.copy {
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.question {
+  font-size: 1em;
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 25px;   
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .news {
