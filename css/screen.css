@@ -39,9 +39,10 @@ h1 {
   margin-left: 1.25em;
   margin-right: 1.25em;
   line-height: 1.56em;
-  font-size: 1.25em;
   font-weight: 400;
+  font-size: 19px;
   padding-bottom: 1.66em;
+  text-align: left;
 }
 
 .register {
@@ -93,8 +94,8 @@ label, name {
 
 .copy {
     font-size: 1em;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .question {
@@ -102,8 +103,9 @@ label, name {
   padding-left: 25px;
   padding-right: 20px;
   padding-top: 25px;   
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   text-align: center;
+  color: #77AAAD;    
 }
 
 .news {
@@ -113,12 +115,12 @@ label, name {
 
 .calendar {
   float: left;
-  padding-right: 0.625em;
+  padding-right: 0.625em; 
 }
 
 .tips {
   float: left;
-  padding-right: 0.625em;
+  padding-right: 0.625em;   
 }
 
 .read {
