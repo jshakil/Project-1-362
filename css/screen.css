@@ -71,6 +71,7 @@ label {
 
 label, name {
   padding-bottom: 0.9375em;
+  padding-top: 10px;
 }
 
 .button {
@@ -86,6 +87,7 @@ label, name {
 }
 
 .submit-button {
+  display: block;    
   padding: 0.625em;
   padding-top: 2.1875em;
   width: 100%;
@@ -106,26 +108,6 @@ label, name {
   padding-bottom: 25px;
   text-align: center;
   color: #77AAAD;    
-}
-
-.news {
-  float: left;
-  padding-right: 0.625em;
-}
-
-.calendar {
-  float: left;
-  padding-right: 0.625em; 
-}
-
-.tips {
-  float: left;
-  padding-right: 0.625em;   
-}
-
-.read {
-  float: left;
-  padding-right: 0.625em;
 }
 
 /* ===== STATE STYLES ===== */
