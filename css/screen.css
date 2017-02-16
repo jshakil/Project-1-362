@@ -87,7 +87,7 @@ label, name {
 }
 
 .submit-button {
-  display: block;    
+  display: block;
   padding: 0.625em; /* 10px */
   padding-top: 2.1875em; /* 46px */
   width: 100%;
@@ -95,9 +95,9 @@ label, name {
 }
 
 .copy {
-    font-size: 1em; /* 16px */
-    padding-left: 2.5em; /* 40px */
-    padding-right: 2.5em; /* 40px */
+  font-size: 1em; /* 16px */
+  padding-left: 2.5em; /* 40px */
+  padding-right: 2.5em; /* 40px */
 }
 
 .question {
@@ -107,13 +107,13 @@ label, name {
   padding-top: 1.5625em;  /* 25px */
   padding-bottom: 1.5625em; /* 25px */
   text-align: center;
-  color: #77AAAD;    
+  color: #77AAAD;
 }
 
 .circle {
-    display: inline;
-    float: left;
-    margin-left: 1.25em; /* 20px */
+  display: inline;
+  float: left;
+  margin-left: 1.25em; /* 20px */
 }
 
 /* ===== STATE STYLES ===== */
@@ -151,5 +151,3 @@ label, name {
     padding-left: 2em;
   }
 }
-
-
