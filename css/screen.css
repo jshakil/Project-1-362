@@ -110,6 +110,12 @@ label, name {
   color: #77AAAD;    
 }
 
+.circle {
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+
 /* ===== STATE STYLES ===== */
 
 /* 775 @ 16px/em */
